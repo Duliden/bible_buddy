@@ -1,0 +1,21 @@
+name: bible_mvp_flutter
+description: MVP app with daily devotionals and Bible search/reference
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  intl: ^0.17.0
+  in_app_purchase: ^3.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bible/NIV_bible.json
